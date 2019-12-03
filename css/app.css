@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font: 0.9em calibri;
+}
+
+header, nav, main, footer {
+    padding: 10px 50px;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+}
+
+nav {
+    background-color: #ccc;
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+.tb {
+    border-collapse: collapse;
+}
+
+.tb th, .tb td {
+    border: 1px solid #999;
+    padding: 5px 10px;
+}
+
+.tb th {
+    background-color: #333;
+    color: #fff;
+}
